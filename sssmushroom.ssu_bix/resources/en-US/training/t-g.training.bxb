@@ -3,3 +3,8 @@ train (t-g3fkcobb7bywfmd6mdy87zz3b) {
   plan (Y2BikC4uLs4tLc4oys/P1SsuLo1PyqzQSyvN88xLy2eQwSaZnloSnwmSZQRCBigGkgA=)
   last-modified (1574482276066)
 }
+train (t-gj0q4vrwbjy52rjretmtpmmdb) {
+  utterance ([g:get_info] fun system)
+  plan (Y2BikC4uLs4tLc4oys/P1SsuLo1PyqzQSyvN88xLy2eQwSaZnloSnwmSZQRCBigGkgA=)
+  last-modified (1574485962905)
+}

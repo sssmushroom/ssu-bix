@@ -46,6 +46,12 @@ layout-macro-def(Info_view_macro) {
                 image-url {
 									template ("#{value(funInfo[i].thumbnailImage)}")
 								}
+                on-click {
+                  intent {
+                    goal: OpenBrowser
+                    value: $expr(funInfo[i].url)
+                  }
+                }
 								image-position (End)
               }
               

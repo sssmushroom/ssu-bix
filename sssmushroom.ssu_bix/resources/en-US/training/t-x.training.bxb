@@ -1,0 +1,5 @@
+train (t-xbt66wgmo0ag7ofo5kmpx1z77) {
+  utterance ([g:get_info] fun system notice)
+  plan (Y2BikC4uLs4tLc4oys/P1SsuLo1PyqzQSyvN88xLy2eQwSaZnloSnwmSZQRCBigGkgA=)
+  last-modified (1574486033502)
+}
