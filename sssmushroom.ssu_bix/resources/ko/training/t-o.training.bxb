@@ -1,0 +1,5 @@
+train (t-oaz45vnylpj67ku0ymvkjvv5x) {
+  utterance ([g:get_info] 펀시스템 공지사항 알려줘)
+  plan (Y2BikC4uLs4tLc4oys/P1SsuLo1PyqzQSyvN88xLy2eQwSaZnloSnwmSZQRCBigGkgA=)
+  last-modified (1574489127475)
+}

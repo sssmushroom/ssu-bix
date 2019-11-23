@@ -1,4 +1,5 @@
 capsule-info {
+  
   display-name ("ssu-bix")
   developer-name ("sssmushroom")
   icon-asset (/images/ssu-bix-icon-large.png)

@@ -6,7 +6,7 @@ endpoints {
       local-endpoint ("main.js")
     }
     action-endpoint (OpenBrowser) {
-       accepted-inputs (url)
+       accepted-inputs (URL)
        local-endpoint ("openBrowser.js")
      }
     // action-endpoint (__ACTION_NAME__) {

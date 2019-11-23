@@ -3,12 +3,12 @@ structure (funInfo) {
 		type (title)
 		min (Optional) max (One)
 	}
-	property (office) {
-		type (office)
+	property (depart) {
+		type (depart)
 		min (Optional) max (One)
 	}
-	property (url) {
-		type (url)
+	property (URL) {
+		type (URL)
 		min (Optional) max (One)
 	}
 	property (date) {
@@ -17,6 +17,10 @@ structure (funInfo) {
 	}
 	property (thumbnailImage) {
 		type (thumbnailImage)
+		min (Optional) max (One)
+	}
+	property (apply) {
+		type (apply)
 		min (Optional) max (One)
 	}
 }

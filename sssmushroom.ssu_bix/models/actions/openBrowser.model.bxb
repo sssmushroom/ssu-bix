@@ -2,10 +2,10 @@ action (OpenBrowser) {
   description (URL을 통하여 app-lauch를 실행하는 action입니다)
   type(Constructor)
   collect {
-    input (url) {
-      type (url)
+    input (URL) {
+      type (URL)
       min (Optional) max (One)
     }
   }
-  output (url)
+  output (URL)
 }

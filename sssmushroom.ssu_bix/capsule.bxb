@@ -3,11 +3,16 @@ capsule {
   version (0.1.0)
   format (3)
   targets {
-    target (bixby-mobile-en-US)
+    target (bixby-mobile-ko-KR) // 한글발화시에 꼭 필요합니다. en-EN을 바꿔주시면 됩니다.
   }
   runtime-flags {
-    concepts-inherit-super-type-features
-    modern-prompt-rejection
-    support-halt-effect-in-computed-inputs
-  }
+		concepts-inherit-super-type-features
+		modern-prompt-rejection
+		allow-dialogs-on-detail-pages
+		modern-default-view-behavior
+		no-fallback-to-result-collections
+		no-filtering-with-validation
+		use-input-views-for-selection-list-detail
+		support-halt-effect-in-computed-inputs
+	}
 }

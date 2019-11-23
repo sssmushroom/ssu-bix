@@ -29,7 +29,7 @@ layout-macro-def(Info_view_macro) {
                   slot2 {
                     single-line {
                       text {
-                        value ("#{value(funInfo[i].office)}") 
+                        value ("#{value(funInfo[i].depart)}") 
                         style (Detail_L)
                       }
                     }
@@ -49,7 +49,7 @@ layout-macro-def(Info_view_macro) {
                 on-click {
                   intent {
                     goal: OpenBrowser
-                    value: $expr(funInfo[i].url)
+                    value: $expr(funInfo[i].URL)
                   }
                 }
 								image-position (End)
