@@ -1,0 +1,14 @@
+result-view {
+	match {
+		news_info (result) {
+			min (Required)
+		}
+	}
+	render {
+		layout-macro (news_info_macro) {
+			param (news_info) {
+				expression(result)
+			}
+		}
+	}
+}

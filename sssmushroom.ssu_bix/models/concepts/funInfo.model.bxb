@@ -1,0 +1,15 @@
+structure (funInfo) {
+  property (title) {
+		type (title)
+		min (Optional) max (One)
+	}
+	property (office) {
+		type (office)
+		min (Optional) max (One)
+	}
+	property (url) {
+		type (url)
+		min (Optional) max (One)
+	}
+	
+}
