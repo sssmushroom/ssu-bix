@@ -18,9 +18,8 @@ class CSEParser:
             a_node = item.find('a')
             onclick_txt = a_node['onclick']
             onclick_split = re.split(',|\(|\)', onclick_txt)
-
-            no = onclick_txt[1]
-            url = onclick_txt[2][4:-1]
+            no = onclick_split[1]
+            url = onclick_split[2][4:-1]
             opt = onclick_split[3][1:-1]
 
             # original format of onclick
