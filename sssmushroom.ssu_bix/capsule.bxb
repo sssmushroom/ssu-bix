@@ -1,6 +1,6 @@
 capsule {
   id (sssmushroom.ssu_bix)
-  version (0.1.0)
+  version (1.0.0)
   format (3)
   targets {
     target (bixby-mobile-ko-KR) // 한글발화시에 꼭 필요합니다. en-EN을 바꿔주시면 됩니다.
