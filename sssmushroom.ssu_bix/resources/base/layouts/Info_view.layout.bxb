@@ -8,10 +8,56 @@ layout-macro-def(Info_view_macro) {
     section {
       content {
         paragraph {
-          value ("Example")
+          value ("펀시스템 공지사항입니다.")
           style (Title_L)
         }
+
+        for-each (funInfo) {
+          as() {
+            
+            index-var (i) 
+              
+              thumbnail-card {
+                title-area {
+                  halign (Start)
+                  slot1 {
+                    text {
+                      value ("#{value(funInfo[i].title)}") 
+                      style (Title_S)
+                    }
+                  }
+                  slot2 {
+                    single-line {
+                      text {
+                        value ("#{value(funInfo[i].office)}") 
+                        style (Detail_L)
+                      }
+                    }
+                  }
+                  slot3 {
+                    single-line {
+                      text {
+                        value ("#{value(funInfo[i].date)}") 
+                        style (Detail_L)
+                      }
+                    }
+                  }
+                }
+                image-url {
+									template ("#{value(funInfo[i].thumbnailImage)}")
+								}
+								image-position (End)
+              }
+              
+            }
+          
+        } 
+        
       }
     }
   }
+  
+ 
+    
+  
 }

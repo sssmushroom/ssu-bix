@@ -11,5 +11,12 @@ structure (funInfo) {
 		type (url)
 		min (Optional) max (One)
 	}
-	
+	property (date) {
+		type (date)
+		min (Optional) max (One)
+	}
+	property (thumbnailImage) {
+		type (thumbnailImage)
+		min (Optional) max (One)
+	}
 }

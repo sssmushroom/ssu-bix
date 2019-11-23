@@ -1,7 +1,7 @@
 capsule-info {
   display-name ("ssu-bix")
-  developer-name (__COMPANY_NAME__)
-  icon-asset (icon.png)
+  developer-name ("sssmushroom")
+  icon-asset (/images/ssu-bix-icon-large.png)
   description ("__DESCRIPTION__")
   website-url (https://example.com/)
   terms-url (https://example.com/terms-of-use/)
