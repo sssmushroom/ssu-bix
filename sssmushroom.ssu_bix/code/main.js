@@ -1,6 +1,7 @@
-module.exports.function = function main () {
-  testData = [
-    {["두드림학기 공모전",
+module.exports.function = function main (input) {
+  /*
+  var testData = [
+    {0:["두드림학기 공모전",
       "교육과정혁신센터",
       "2019.11.22(금) ~ 2019.12.20(금)",
       "1/무제한"]
@@ -12,5 +13,13 @@ module.exports.function = function main () {
       "28/100명"]
     }
     ]
-  return testData
+    */
+  // print(input)
+
+  var test1 = {
+    "office": "스파르탄 교육원",
+    "title": "글로벌 SW 인턴십 프로그램",
+    "url": "https://fun.ssu.ac.kr/ko/program/all/view/1310"
+  }
+  return test1
 }

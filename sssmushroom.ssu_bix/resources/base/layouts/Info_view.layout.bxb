@@ -1,0 +1,17 @@
+layout-macro-def(Info_view_macro) {
+	params {
+		param (funInfo) {
+			type (funInfo)
+		}
+	}
+  content {
+    section {
+      content {
+        paragraph {
+          value ("Example")
+          style (Title_L)
+        }
+      }
+    }
+  }
+}
