@@ -1,0 +1,10 @@
+action (approach_fun_info) {
+  description ("펀시스템 종료임박순")
+  collect {
+    input (input) {
+      type (input)
+      min (Optional) max (One)
+    }
+  }
+  output (funInfo)
+}

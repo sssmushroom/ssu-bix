@@ -1,0 +1,5 @@
+train (t-n5xsgd3d9qaisfvsdkcl6p7h2) {
+  utterance ("[g:get_info_cse] (컴퓨터학부)[v:input] 공지사항 알려줘")
+  plan (Y2BmkC4uLs4tLc4oys/P1SsuLo1PyqzQSy5O9cxLy2dQwCaZnloSnwmUjQeqYpDEpiIzr6C0hIGJgRGIGYAkIwMIQPkA)
+  last-modified (1574495940111)
+}

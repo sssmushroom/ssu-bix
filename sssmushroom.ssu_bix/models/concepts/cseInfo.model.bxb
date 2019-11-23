@@ -1,0 +1,14 @@
+structure (cseInfo) {
+  property (title) {
+		type (title)
+		min (Optional) max (One)
+	}
+  property (date) {
+		type (date)
+		min (Optional) max (One)
+	}
+  property (URL) {
+		type (URL)
+		min (Optional) max (One)
+	}
+}

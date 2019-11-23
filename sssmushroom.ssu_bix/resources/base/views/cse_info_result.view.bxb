@@ -1,0 +1,14 @@
+result-view {
+	match {
+		cseInfo (result) {
+			min (Required)
+		}
+	}
+	render {
+		layout-macro (cse_info_view_macro) {
+			param (cseInfo) {
+				expression(result)
+			}
+		}
+	}
+}

@@ -3,8 +3,23 @@ endpoints {
     // Uncomment the lines below and enter the information for actions, inputs, and the appropriate local or remote endpoints
     action-endpoint (get_info) {
       accepted-inputs (input)
-      local-endpoint ("main.js")
+      local-endpoint ("latest_fun.js")
     }
+    
+    action-endpoint (applicant_fun_info) {
+      accepted-inputs (input)
+      local-endpoint ("applicant_fun.js")
+    }
+
+    action-endpoint (approach_fun_info) {
+      accepted-inputs (input)
+      local-endpoint ("approach_fun.js")
+    }
+    action-endpoint (get_info_cse) {
+      accepted-inputs (input)
+      local-endpoint ("get_info_cse.js")
+    }
+
     action-endpoint (OpenBrowser) {
        accepted-inputs (URL)
        local-endpoint ("openBrowser.js")

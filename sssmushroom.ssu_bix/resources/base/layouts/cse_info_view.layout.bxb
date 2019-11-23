@@ -1,0 +1,57 @@
+layout-macro-def(cse_info_view_macro) {
+	params {
+		param (cseInfo) {
+			type (cseInfo)
+		}
+	}
+  content {
+    section {
+      content {
+        paragraph {
+          value ("컴퓨터학부 공지사항입니다.")
+          style (Title_L)
+        }
+
+        for-each (cseInfo) {
+          as() {
+            
+            index-var (i) 
+              
+              cell-card {
+                  slot2 {
+                    content {
+										  order (PrimarySecondary)
+                      // primary ("title")
+										  primary ("#{value(cseInfo[i].title)}")
+									  }
+                  }
+                  
+                  slot3 {
+                    label {
+                      value ("#{value(cseInfo[i].date)}")
+                    }
+										  
+                      
+										  // primary ("#{value(cseInfo[i].date)}")
+									  
+                  }
+                on-click {
+                  intent {
+                    goal: OpenBrowser
+                    value: $expr(cseInfo[i].URL)
+                  }
+                }
+              }
+              
+            }
+          
+        } 
+        
+      }
+    }
+  }
+  
+ 
+    
+  
+}

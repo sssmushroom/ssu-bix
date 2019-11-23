@@ -1,8 +1,8 @@
 var console = require("console");
 var request = require("http");
 
-module.exports.function = function main (input) {
-  var json = request.getUrl("http://210.113.90.239:5000/res1.json",{
+module.exports.function = function latest_fun (input) {
+  var json = request.getUrl("http://210.113.90.239:8081/fun/date",{
   });
   var obj = JSON.parse(json)
   console.log(obj)
